@@ -14,6 +14,7 @@ from PIL import Image
 import ScreenGrab
 import os
 import json
+import clipboard
 #yes we can do this
 
 exec('ScreenGrab')
@@ -32,7 +33,7 @@ ocr_url = vision_base_url + "ocr"
 image_url = uploaded_image.link
 print (image_url)
 headers = {'Ocp-Apim-Subscription-Key': subscription_key}
-params  = {'language': 'en'}
+params  = {'language': 'unk'}
 data    = {'url': image_url}
 response = requests.post(ocr_url, headers=headers, params=params, json=data)
 response.raise_for_status()
@@ -40,14 +41,43 @@ response.raise_for_status()
 analysis = response.json()
 print(analysis)
 analysis=analysis["regions"]
-
+dicky={}
+licky={}
 for i in analysis:
 	temp=i["lines"]
 	for i1 in temp:
 		temp2=i1["words"]
 		for i2 in temp2:
+			a1 = i2["boundingBox"].split(',')#[1],i2["boundingBox"][0],i2["boundingBox"][3],i2["boundingBox"][2]
+			a = int(a1[1]),int(a1[0]),int(a1[3]),int(a1[2])
+			b = i2["text"]
+			dicky[a]=b;
+			print(i2["boundingBox"])
 			print(i2["text"],end=' ')
 		print()
+print(dicky)
+prev = 0
+temp={}
+for key in sorted(dicky):
+	print(key[0],key[1],dicky[key])
+
+prev = 0
+s = '' 
+for key in sorted(dicky):
+	new  = key[0]
+	if new < prev+10:
+		licky[key[1],key[2],key[3]]=dicky[key]
+	else:
+		for k in sorted(licky):
+			print(licky[k],end=" ")
+			s+=str(licky[k])+" "
+		print()
+		s+='\n'
+		licky={}
+		licky[key[1],key[2],key[3]]=dicky[key]
+	prev = new
+
+clipboard.function3(s)
 
 # dict_analysis=json.loads(analysis)
 # for i in dict_analysis:
