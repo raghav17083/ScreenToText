@@ -11,7 +11,7 @@ class ExampleWindow(QMainWindow):
         QMainWindow.__init__(self)
 
         self.setMinimumSize(QSize(440, 240))    
-        self.setWindowTitle("PyQt5 Textarea example") 
+        self.setWindowTitle("Work Area") 
 
         # Add text field
         self.text = m

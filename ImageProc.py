@@ -65,7 +65,7 @@ prev = 0
 s = '' 
 for key in sorted(dicky):
 	new  = key[0]
-	if new < prev+10:
+	if new < prev+20:
 		licky[key[1],key[2],key[3]]=dicky[key]
 	else:
 		for k in sorted(licky):
