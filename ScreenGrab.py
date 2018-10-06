@@ -4,6 +4,9 @@ import tkinter as tk
 from PIL import ImageGrab
 import numpy as np
 # import cv2
+from PIL import Image
+# from tesseract import image_to_string
+# from ImageProc import function2
 
 
 class MyWidget(QtWidgets.QWidget):
@@ -54,11 +57,14 @@ class MyWidget(QtWidgets.QWidget):
         # cv2.imshow('Captured Image', img)
         # cv2.waitKey(0)
         # cv2.destroyAllWindows()
-
-
-if __name__ == '__main__':
+def function():
     app = QtWidgets.QApplication(sys.argv)
     window = MyWidget()
     window.show()
     app.aboutToQuit.connect(app.deleteLater)
-    sys.exit(app.exec_())
+    # function2()
+    # app.exit(0)
+    # sys.exit(app.exec_())
+    app.exec_()
+    # app.quit()
+function()
