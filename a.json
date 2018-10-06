@@ -1,0 +1,342 @@
+{
+  "language": "en",
+  "orientation": "Up",
+  "textAngle": 0.0,
+  "regions": [{
+    "boundingBox": "52,28,424,23",
+    "lines": [{
+      "boundingBox": "52,28,424,23",
+      "words": [{
+        "boundingBox": "52,28,120,19",
+        "text": "Preferences"
+      }, {
+        "boundingBox": "181,28,260,23",
+        "text": "(Linux).sublime-settings"
+      }, {
+        "boundingBox": "462,32,14,14",
+        "text": "x"
+      }]
+    }]
+  }, {
+    "boundingBox": "44,73,14,130",
+    "lines": [{
+      "boundingBox": "45,73,13,17",
+      "words": [{
+        "boundingBox": "45,73,13,17",
+        "text": "1"
+      }]
+    }, {
+      "boundingBox": "45,101,12,17",
+      "words": [{
+        "boundingBox": "45,101,12,17",
+        "text": "2"
+      }]
+    }, {
+      "boundingBox": "44,129,13,18",
+      "words": [{
+        "boundingBox": "44,129,13,18",
+        "text": "3"
+      }]
+    }, {
+      "boundingBox": "44,157,13,17",
+      "words": [{
+        "boundingBox": "44,157,13,17",
+        "text": "4"
+      }]
+    }, {
+      "boundingBox": "44,185,13,18",
+      "words": [{
+        "boundingBox": "44,185,13,18",
+        "text": "5"
+      }]
+    }]
+  }, {
+    "boundingBox": "165,100,365,77",
+    "lines": [{
+      "boundingBox": "173,100,135,21",
+      "words": [{
+        "boundingBox": "173,100,54,19",
+        "text": "font"
+      }, {
+        "boundingBox": "229,118,15,3",
+        "text": "_"
+      }, {
+        "boundingBox": "245,100,63,19",
+        "text": "face'"
+      }]
+    }, {
+      "boundingBox": "352,100,160,23",
+      "words": [{
+        "boundingBox": "352,100,148,23",
+        "text": "'Monospace\""
+      }, {
+        "boundingBox": "505,113,7,10",
+        "text": ","
+      }]
+    }, {
+      "boundingBox": "173,128,135,21",
+      "words": [{
+        "boundingBox": "173,128,135,21",
+        "text": "font_size'"
+      }]
+    }, {
+      "boundingBox": "346,129,36,22",
+      "words": [{
+        "boundingBox": "346,129,36,22",
+        "text": "10,"
+      }]
+    }, {
+      "boundingBox": "165,156,365,21",
+      "words": [{
+        "boundingBox": "165,156,365,21",
+        "text": "'mouse_wheel_switches_tabs"
+      }]
+    }]
+  }, {
+    "boundingBox": "577,157,55,17",
+    "lines": [{
+      "boundingBox": "577,157,55,17",
+      "words": [{
+        "boundingBox": "577,157,55,17",
+        "text": "true"
+      }]
+    }]
+  }, {
+    "boundingBox": "52,240,460,23",
+    "lines": [{
+      "boundingBox": "52,240,425,23",
+      "words": [{
+        "boundingBox": "52,240,120,19",
+        "text": "Preferences"
+      }, {
+        "boundingBox": "181,240,296,23",
+        "text": "(Windows).sublime-settings"
+      }]
+    }, {
+      "boundingBox": "498,244,14,14",
+      "words": [{
+        "boundingBox": "498,244,14,14",
+        "text": "x"
+      }]
+    }]
+  }, {
+    "boundingBox": "44,287,14,97",
+    "lines": [{
+      "boundingBox": "45,287,13,13",
+      "words": [{
+        "boundingBox": "45,287,13,13",
+        "text": "1"
+      }]
+    }, {
+      "boundingBox": "45,311,12,17",
+      "words": [{
+        "boundingBox": "45,311,12,17",
+        "text": "2"
+      }]
+    }, {
+      "boundingBox": "44,339,13,18",
+      "words": [{
+        "boundingBox": "44,339,13,18",
+        "text": "3"
+      }]
+    }, {
+      "boundingBox": "44,367,13,17",
+      "words": [{
+        "boundingBox": "44,367,13,17",
+        "text": "4"
+      }]
+    }]
+  }, {
+    "boundingBox": "173,310,135,49",
+    "lines": [{
+      "boundingBox": "173,310,135,21",
+      "words": [{
+        "boundingBox": "173,310,54,19",
+        "text": "font"
+      }, {
+        "boundingBox": "229,328,15,3",
+        "text": "_"
+      }, {
+        "boundingBox": "245,310,63,19",
+        "text": "face'"
+      }]
+    }, {
+      "boundingBox": "173,338,135,21",
+      "words": [{
+        "boundingBox": "173,338,135,21",
+        "text": "font_size'"
+      }]
+    }]
+  }, {
+    "boundingBox": "346,310,140,47",
+    "lines": [{
+      "boundingBox": "360,310,126,19",
+      "words": [{
+        "boundingBox": "360,310,113,19",
+        "text": "Consolas"
+      }, {
+        "boundingBox": "477,310,9,9",
+        "text": "\""
+      }]
+    }, {
+      "boundingBox": "346,339,27,18",
+      "words": [{
+        "boundingBox": "346,339,27,18",
+        "text": "10"
+      }]
+    }]
+  }, {
+    "boundingBox": "52,422,408,23",
+    "lines": [{
+      "boundingBox": "52,422,408,23",
+      "words": [{
+        "boundingBox": "52,422,120,19",
+        "text": "Preferences"
+      }, {
+        "boundingBox": "181,422,244,23",
+        "text": "(OSX).sublime-settings"
+      }, {
+        "boundingBox": "446,426,14,14",
+        "text": "x"
+      }]
+    }]
+  }, {
+    "boundingBox": "44,467,14,242",
+    "lines": [{
+      "boundingBox": "45,467,13,17",
+      "words": [{
+        "boundingBox": "45,467,13,17",
+        "text": "1"
+      }]
+    }, {
+      "boundingBox": "45,495,12,17",
+      "words": [{
+        "boundingBox": "45,495,12,17",
+        "text": "2"
+      }]
+    }, {
+      "boundingBox": "44,523,13,18",
+      "words": [{
+        "boundingBox": "44,523,13,18",
+        "text": "3"
+      }]
+    }, {
+      "boundingBox": "44,551,13,17",
+      "words": [{
+        "boundingBox": "44,551,13,17",
+        "text": "4"
+      }]
+    }, {
+      "boundingBox": "44,579,13,18",
+      "words": [{
+        "boundingBox": "44,579,13,18",
+        "text": "5"
+      }]
+    }, {
+      "boundingBox": "45,607,12,18",
+      "words": [{
+        "boundingBox": "45,607,12,18",
+        "text": "6"
+      }]
+    }, {
+      "boundingBox": "45,635,12,17",
+      "words": [{
+        "boundingBox": "45,635,12,17",
+        "text": "7"
+      }]
+    }, {
+      "boundingBox": "45,663,12,18",
+      "words": [{
+        "boundingBox": "45,663,12,18",
+        "text": "8"
+      }]
+    }, {
+      "boundingBox": "45,691,12,18",
+      "words": [{
+        "boundingBox": "45,691,12,18",
+        "text": "9"
+      }]
+    }]
+  }, {
+    "boundingBox": "173,494,454,191",
+    "lines": [{
+      "boundingBox": "173,494,135,21",
+      "words": [{
+        "boundingBox": "173,494,54,19",
+        "text": "font"
+      }, {
+        "boundingBox": "229,512,15,3",
+        "text": "_"
+      }, {
+        "boundingBox": "245,494,63,19",
+        "text": "face'"
+      }]
+    }, {
+      "boundingBox": "352,494,206,23",
+      "words": [{
+        "boundingBox": "352,494,90,19",
+        "text": "'Menlo-"
+      }, {
+        "boundingBox": "447,494,111,23",
+        "text": "Regular\""
+      }]
+    }, {
+      "boundingBox": "173,522,135,21",
+      "words": [{
+        "boundingBox": "173,522,135,21",
+        "text": "font_size'"
+      }]
+    }, {
+      "boundingBox": "346,523,36,22",
+      "words": [{
+        "boundingBox": "346,523,36,22",
+        "text": "12,"
+      }]
+    }, {
+      "boundingBox": "173,549,339,24",
+      "words": [{
+        "boundingBox": "173,550,238,23",
+        "text": "scroll_past_end\":"
+      }, {
+        "boundingBox": "433,549,79,24",
+        "text": "false,"
+      }]
+    }, {
+      "boundingBox": "476,578,79,23",
+      "words": [{
+        "boundingBox": "476,578,79,23",
+        "text": "false,"
+      }]
+    }, {
+      "boundingBox": "173,606,351,23",
+      "words": [{
+        "boundingBox": "173,606,351,23",
+        "text": "move_to_limit_on_up_down'"
+      }]
+    }, {
+      "boundingBox": "563,607,64,22",
+      "words": [{
+        "boundingBox": "563,607,64,22",
+        "text": "true,"
+      }]
+    }, {
+      "boundingBox": "173,634,454,23",
+      "words": [{
+        "boundingBox": "173,634,368,23",
+        "text": "close_windows_when_empty\":"
+      }, {
+        "boundingBox": "563,635,64,22",
+        "text": "true,"
+      }]
+    }, {
+      "boundingBox": "173,661,315,24",
+      "words": [{
+        "boundingBox": "173,662,224,23",
+        "text": "show_full_path\":"
+      }, {
+        "boundingBox": "418,661,70,19",
+        "text": "false"
+      }]
+    }]
+  }]
+}

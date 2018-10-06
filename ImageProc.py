@@ -1,5 +1,4 @@
 import requests
-
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 from PIL import Image
@@ -40,6 +39,19 @@ response.raise_for_status()
 
 analysis = response.json()
 print(analysis)
+analysis=analysis["regions"]
+
+for i in analysis:
+	temp=i["lines"]
+	for i1 in temp:
+		temp2=i1["words"]
+		for i2 in temp2:
+			print(i2["text"],end=' ')
+		print()
+
+# dict_analysis=json.loads(analysis)
+# for i in dict_analysis:
+# 	print(i)
 # line_infos = [region["lines"] for region in analysis["regions"]]
 # word_infos = []
 # for line in line_infos:
